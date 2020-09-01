@@ -15,4 +15,27 @@ and enviornment variables in Docker here:
 https://docs.docker.com/engine/reference/run/#env-environment-variables
 
 # Tell[ Travis how to run](.travis.yml)
+```yaml
+script:
+  - docker run -e CI=true jaynejacobs/docker-react npm run test
+  ```
+https://travis-ci.org/github/JayneJacobs/docker-react/jobs/******
+
+
+### Elastic Bean Stalk
+
+Create application
+![EB](AWSEB.png)
+
+### S3 bucket name
+https://s3.console.aws.amazon.com/s3/buckets/********/?region=********
+
+### IAM
+
+https://console.aws.amazon.com/iam/home?region=us-east-2#/home
+
+Attach existing policies directly -AWSElasticBeanstalkFullAccess
+
+Store keys directly in travis-ci
+
 
