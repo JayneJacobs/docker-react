@@ -39,3 +39,6 @@ Attach existing policies directly -AWSElasticBeanstalkFullAccess
 Store keys directly in travis-ci
 
 
+Expose 80 in Dockerfile
+
+https://docs.docker.com/develop/develop-images/multistage-build/#name-your-build-stages
