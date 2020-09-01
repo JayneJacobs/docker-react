@@ -7,7 +7,7 @@ git add .
 git commit -m "initial commit"
  git remote add origin https://github.com/JayneJacobs/docker-react.git
 PASML-335382:frontend jjacob151$ git push -u origin master
-
+[Instructor Notes](docs/InstructrNotes.md)
 
 https://facebook.github.io/create-react-app/docs/running-tests#linux-macos-bash
 
@@ -24,7 +24,7 @@ https://travis-ci.org/github/JayneJacobs/docker-react/jobs/******
 
 
 ### Elastic Bean Stalk
-
+[AWS Cheatsheet](docs/aws.md)
 Create application
 ![EB](AWSEB.png)
 
