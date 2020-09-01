@@ -1,4 +1,5 @@
 # Using Travis-CI
+DockerReact-env.eba-9npzcn7n.us-east-2.elasticbeanstalk.com
 
 ## Git Hub
 git init
@@ -42,3 +43,14 @@ Store keys directly in travis-ci
 Expose 80 in Dockerfile
 
 https://docs.docker.com/develop/develop-images/multistage-build/#name-your-build-stages
+
+## CI Workflow
+
+![ci](Workflow.png)
+
+git checkout -b feature
+
+Update
+
+git push origin feature
+
