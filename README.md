@@ -54,3 +54,18 @@ Update
 
 git push origin feature
 
+## Environment Cleanup
+  Clean  Elastic Beanstalk instance  created:
+
+1.  Elastic Beanstalk dashboard.
+
+2.  click "Applications"
+
+3.  delete.
+
+4.   "Actions" button  -  "Delete Application"
+
+
+5. Enter the name of your application .
+
+ 
